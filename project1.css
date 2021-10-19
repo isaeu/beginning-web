@@ -1,0 +1,82 @@
+html{
+    background-image: url(IMAGES/sky2-01.png);
+    background-size: cover
+}
+
+
+
+a{
+    font-family: optima;
+    text-decoration:none;
+    color: cadetblue;
+    text-align: right;
+    letter-spacing: 7px;
+}
+
+
+
+a:hover{
+    font-style: italic;
+    color: palegreen;
+    text-transform: uppercase;
+}
+
+
+
+nav{
+    text-align: right;  
+}
+
+header{
+    color:white;
+    font-family: garamond;
+    font-size: 50px;
+    background-image: url(IMAGES/aspen-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:auto;
+    height: 500px;
+    letter-spacing: 48px;
+}
+
+
+
+section{
+    color:aliceblue;
+    width: 525px;
+    text-align: right;
+    font-size: 15px;
+}
+
+.section{
+    text-align: right;
+}
+
+
+
+footer{
+    background-color: white;
+    width: auto;
+    height: 3px;
+    margin: 30px 0px 15px 0px
+}
+
+@media (max-width:720px){
+    
+    section,.section{
+        padding: 20px 5px 0px 5px;
+        font-size: 12px;
+        width: 100%;
+        text-align: justify;
+    }
+    
+    nav a{
+        display: block;
+    }
+    
+    header{
+        font-size: 40px;
+        text-align: justify;
+        width: 100%
+    }
+}
